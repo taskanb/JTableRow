@@ -5,7 +5,7 @@ pipeline {
       stage('Build') {
         steps {
           echo 'Building...'
-          bat ./src/JTableRow.java
+          sh ./src/JTableRow.java
 		  echo 'Build Ends!'
    
         }
