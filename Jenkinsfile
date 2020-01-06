@@ -5,7 +5,7 @@ pipeline {
       stage('Build') {
         steps {
           echo 'Building...'
-          javac JTableRow.java
+          java JTableRow.java
 		  echo 'Build Ends!'
    
         }
